@@ -26,15 +26,9 @@ function WeatherCard({city}){
             <h2 className={classes.TitleStyle}>{city}</h2>
             <p>Temperatura: {weather?.main?.temp}°C</p>
             <p>Clima: {weather?.weather[0]?.description}</p>
-            <p>Viento: {weather.wind.speed * 3.6.toFixed(0)} km/h</p>
-
-                    <p>TESt</p>
-                            <p>TESt2</p>
-
+            <p>Viento: {weather.wind.speed * 3.6.toFixed(0)} km/h</p>           
         </div>
-
-    );
-    
+    );    
 }
 
 export default WeatherCard;
