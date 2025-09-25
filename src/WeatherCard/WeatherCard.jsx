@@ -5,7 +5,7 @@ function WeatherCard({city, rainProb, maxHour}){
     const [weather, setWeather] = useState(null);
 
     useEffect(() => {
-        const API_KEY = import.meta.env.VITE_OPEN_WEATHER;
+        const API_KEY = import.meta.env.VITE_OPEN_WEATHER_API;
         
         fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city},mx&units=metric&appid=${API_KEY}&lang=es`)
             .then(res => res.json())

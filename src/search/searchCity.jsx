@@ -13,7 +13,7 @@ const useSearchCity = () => {
     setError(null);
     setCityData(null);
 
-    const API_KEY = import.meta.env.VITE_OPEN_WEATHER;    
+    const API_KEY = import.meta.env.VITE_OPEN_WEATHER_API;    
     
     try {
       //console.log(`🔍 Buscando ${cityName}...`);

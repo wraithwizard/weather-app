@@ -34,7 +34,7 @@ export const useRainProbabilities = (cities) => {
       }
 
       setLoading(true);
-      const API_KEY = import.meta.env.VITE_OPEN_WEATHER;
+      const API_KEY = import.meta.env.VITE_OPEN_WEATHER_API;
 
       const results = {};
       const now = Date.now();
