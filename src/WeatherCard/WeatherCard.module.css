@@ -1,0 +1,49 @@
+.CardStyle {  
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column; /* apila contenido vertical */
+    justify-content: center;
+    align-items: center;
+    max-width: 320px;        /* tope para iPhone */
+    margin: 1rem auto;       /* centrado */
+    overflow: hidden;
+    background-image: linear-gradient(#f27a11, #FC4C02);
+}
+.TitleStyle {
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+    color: white;
+}
+.TextStyle{
+    font-weight:700; 
+    padding: 0.5rem;   
+    color: white;
+}
+.Temperature{
+    font-size: 3rem;
+    padding: 0 0.5rem;
+    margin: 0 auto;
+}
+.IconStyle {
+  width: 5rem;
+  height: 5rem;
+}
+.Division{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #e6a164; */
+    background-color: #e6a164;
+    border-radius: 1rem;
+    width: 90%;
+    margin: 0.5rem;
+    border-color: white;
+    border-style: solid;
+    border-width: 0.1rem;
+}
+.SmallText{
+    font-size: 0.8rem;
+    font-family: Verdana;
+}
