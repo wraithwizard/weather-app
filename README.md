@@ -42,3 +42,12 @@ Yucatán tiene una hermosa costa con puertos pesqueros y turísticos únicos. Es
 Turistas: Planificar actividades costeras
 Pescadores: Decidir los mejores momentos para salir
 Locales: Conocer condiciones para actividades al aire libre
+
+**Developer**
+
+Ari Christian Chavez
+
+💼 LinkedIn: https://www.linkedin.com/in/ari-christian-chavez-a21894120/
+
+📧 Email: accmnl@hotmail.com
+
